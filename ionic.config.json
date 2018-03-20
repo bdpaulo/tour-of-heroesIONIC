@@ -4,5 +4,11 @@
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
-  }
+  },
+  "proxies": [
+    {
+      "path": "/heroes",
+      "proxyUrl": "http://localhost:3000/heroes"
+    }
+  ]
 }
